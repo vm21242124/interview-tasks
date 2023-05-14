@@ -5,12 +5,12 @@ import java.util.regex.Pattern;
 
 public class Student {
     public static void main(String[] args) {
+        System.out.println("Enter Following details of student");
         ValidateStudent();
 
     }
 
     private static void ValidateStudent() {
-        System.out.println("Enter Following details of student");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Roll No : ");
         int rno = sc.nextInt();
